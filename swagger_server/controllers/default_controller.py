@@ -44,6 +44,5 @@ def get_student_by_id(student_id):  # noqa: E501
     :type student_id: float
 
     :rtype: Student
-    """
-    response = get_by_id(student_id)
-    return Student.from_dict(response)
+    """ 
+    return get_by_id(student_id)
